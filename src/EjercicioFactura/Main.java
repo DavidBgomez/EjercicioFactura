@@ -22,7 +22,7 @@ public class Main {
         if (buscarClienteExiste(cedCliente)){
             continuar =true;
             if (continuar == true) {
-                boolean continuar1 = false;
+                boolean continuar1 = true;
                 do {
                     System.out.print("Ingrese el nombre del Articulo: ");
                     String nomArticulo = new String(teclado.nextLine());
